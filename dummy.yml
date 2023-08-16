@@ -1,0 +1,7 @@
+---
+- name: "Dummy Ansible Playbook"
+  hosts: "localhost"
+  tasks:
+    - name: "Dummy playbook is executing."
+      ansible.builtin.debug:
+        msg: "Dummy playbook has been started"
