@@ -1,0 +1,7 @@
+---
+- name: "Dummy Ansible Playbook"
+  hosts: "localhost"
+  tasks:
+    - name: "Dummy playbook is executing."
+      ansible.builtin.fail:
+        msg: "Triggering a fail"
